@@ -1,4 +1,4 @@
-medida = float(input('Informe ama distância em metros: '))
+medida = float(input('Informe uma distância em metros: '))
 
 dm = medida * 10
 cm = medida * 100
