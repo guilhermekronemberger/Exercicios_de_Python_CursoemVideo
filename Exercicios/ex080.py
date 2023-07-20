@@ -15,4 +15,5 @@ for contador in range(0, 5):
                 print(f'Adicionado na posição {posicao} da lista!')
                 break
             posicao += 1
+            
 print(f'Os valores digitados em ordem foram: {lista}')
