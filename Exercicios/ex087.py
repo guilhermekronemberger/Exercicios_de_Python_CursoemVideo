@@ -29,5 +29,4 @@ for coluna in range(0, 3):
     
     elif matriz[1][coluna] > maiorvalor:
         maiorvalor = matriz[1][coluna]
-
 print(f'O maior valor da segunda linha é {maiorvalor}.')
