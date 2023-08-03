@@ -9,11 +9,14 @@ for c in range(0, total):
 
 jogador['gols'] = partidas[:]
 jogador['total'] = sum(partidas)
+
 print('=-' * 25)
 print(jogador)
+
 print('=-' * 25)
 for k, v in jogador.items():
     print(f'O campo {k} tem o valor {v}')
+
 print('=-' * 25)
 print(f'O jogador {jogador["nome"]} jogou {len(jogador["gols"])} partidas.')
 for i, v in enumerate(jogador['gols']):
