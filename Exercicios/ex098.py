@@ -1,5 +1,6 @@
 from time import sleep
 
+
 def contador(i, f, p):
     if p < 0:
         p *= -1
@@ -32,6 +33,7 @@ def contador(i, f, p):
             c -= p
         print('FIM!')
     print('=' * 40)
+
 
 contador(1, 10, 1)
 contador(10, 0, 2)
