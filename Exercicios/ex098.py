@@ -1,6 +1,5 @@
 from time import sleep
 
-
 def contador(i, f, p):
     if p < 0:
         p *= -1
