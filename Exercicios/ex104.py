@@ -1,8 +1,8 @@
-def leiaint(args):
+def leiaint(msg):
     validador = False
     valor = 0
     while True:
-        n = str(input(args))
+        n = str(input(msg))
         if n.isnumeric():
             valor = int(n)
             validador = True
