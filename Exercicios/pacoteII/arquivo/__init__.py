@@ -1,3 +1,5 @@
+from pacoteII.interface import *
+
 def arquivoExiste(nome):
     try:
         a = open(nome, 'rt')
@@ -16,3 +18,13 @@ def criarArquivo(nome):
         print('ERRO ao criar o arquivo!')
     else:
         print(f'Arquivo {nome} criado com sucesso!')
+
+
+def lerArquivo(nome):
+    try:
+        a = open(nome, 'rt')
+    except:
+        print('ERRO ao ler o arquivo!')
+    else:
+        cabeçalho('Pessoas cadastradas')
+        print(a.read())
