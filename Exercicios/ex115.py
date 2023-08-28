@@ -1,5 +1,12 @@
 from pacoteII.interface import *
+from pacoteII.arquivo import *
 from time import sleep
+
+arq = 'listagem.txt'
+
+if not arquivoExiste(arq):
+    criarArquivo(arq)
+ 
 
 while True:
     resposta = menu(['Pessoas cadastradas', 'Novo cadastro', 'Sair'])
